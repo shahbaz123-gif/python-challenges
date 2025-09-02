@@ -1,6 +1,6 @@
-theBoard = {'7': '' , '8': '' , '9': '' ,
-            '4': '' , '5': '' , '6': '' ,
-            '1': '' , '2': '' , '3': ''
+theBoard = {'7': ' ' , '8': ' ' , '9': ' ' ,
+            '4': ' ' , '5': ' ' , '6': ' ' ,
+            '1': ' ' , '2': ' ' , '3': ' '
             }
 board_keys = []
 
@@ -82,7 +82,7 @@ def game():
 
 
         if turn == 'X':
-            turn = 0
+            turn = 'O'
         else:
             turn = 'X'
     restart = input("do you want to play again?(y/n)") 
